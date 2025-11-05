@@ -1,0 +1,34 @@
+#!/bin/bash
+
+models=(
+    "ca_core_news_sm"
+    "zh_core_web_sm"
+    "hr_core_news_sm"
+    "da_core_news_sm"
+    "nl_core_news_sm"
+    "en_core_web_sm"
+    "fi_core_news_sm"
+    "fr_core_news_sm"
+    "de_core_news_sm"
+    "el_core_news_sm"
+    "it_core_news_sm"
+    "ja_core_news_sm"
+    "ko_core_news_sm"
+    "mk_core_news_sm"
+    "nb_core_news_sm"
+    "pl_core_news_sm"
+    "pt_core_news_sm"
+    "ro_core_news_sm"
+    "ru_core_news_sm"
+    "es_core_news_sm"
+    "sv_core_news_sm"
+    "uk_core_news_sm"
+)
+
+for model in "${models[@]}"
+#for model in "$models"
+
+do
+    python3 -m spacy download "$model"
+done
+
