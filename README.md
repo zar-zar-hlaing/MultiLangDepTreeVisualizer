@@ -356,8 +356,6 @@ Output will be printed to the console as SVG content.
  ┣ 📜 LICENSE
  ┣ 📜 multilangDepTreeVisualizer.py
  ┗ 📜 README.md
-
-
 ```
 
 ---
