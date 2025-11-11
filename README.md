@@ -160,21 +160,6 @@ The **Dependency Tree Visualizer Tool** processes multilingual text or files to 
 
 ---
 
-## Configuration Parameters
-
-| Parameter              | Description                                           | Default / Notes                                                                 |
-| ---------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------- |
-| lang                   | Language code to determine pipeline                   | Provided via `--lang` argument                                                 |
-| merge_chunks           | 0 (disabled) or 1 (enabled); merges noun chunks       | Provided via `--merge_chunks` argument; default = 1                             |
-| merge_punct            | 0 (disabled) or 1 (enabled); merges punctuation spans | Provided via `--merge_punct` argument; default = 0                              |
-| stanza_model_dir       | Directory for Stanza models                           | `/opt/omniscien/tools/wfs/syntaxparser/stanza_models/`                         |
-| nlp.max_length         | Maximum text length                                   | 2,000,000 characters                                                            |
-| noun_chunks_langLst    | Languages supporting noun chunk merging               | See script (e.g., ['ca', 'nl', 'en', 'el', 'it', 'ja', 'fa', 'tr', ...])       |
-| no_noun_chunks_langLst | Languages without noun chunk merging                  | See script (e.g., ['de', 'es', 'fr', 'pt', 'sv', 'no', 'fi', 'da', ...])       |
-| stdin_markers          | Input type detection                                  | `@LSFILEPATHLS@` (file input), `@LSENDOFFTEXTINPUTLS@` (direct text input)     |
-
-
----
 
 ## Requirements
 
