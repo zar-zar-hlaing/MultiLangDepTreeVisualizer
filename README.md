@@ -40,6 +40,10 @@ The **Dependency Tree Visualizer Tool** processes multilingual text or files to 
 
 ## Supported Languages & Pipelines
 
+
+<details>
+<summary>Click to expand/collapse the full table</summary>
+
 | No. | Language Code         | Language            | Pipeline   | Noun Chunk Merge |
 | --- | --------------------- | ------------------- | ---------- | ---------------- |
 | 1   | af                    | Afrikaans           | UDPipe     | ❌                |
@@ -114,6 +118,9 @@ The **Dependency Tree Visualizer Tool** processes multilingual text or files to 
 | 70  | uk                    | Ukrainian           | spaCy      | ❌                |
 | 71  | ur                    | Urdu                | UDPipe     | ❌                |
 | 72  | vi                    | Vietnamese          | UDPipe     | ❌                |
+
+
+</details>
 
 ---
 
@@ -320,8 +327,13 @@ This will generate a dependency tree visualization and save it as `output.svg`.
 ```bash
 python3 multilangDepTreeVisualizer.py --lang en --text "This is a test sentence."
 ```
+---
 
-Output will be printed to the console as SVG content.
+## Sample Output
+
+The tool prints the following SVG content to the console. For example, using the file located at `/example/sample_output.svg`:
+
+![Sample SVG Output](examples/sample_output.svg)
 
 ---
 
