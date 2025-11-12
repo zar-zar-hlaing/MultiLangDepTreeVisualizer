@@ -359,7 +359,7 @@ The tool prints the following SVG content to the console. For example, using the
 
 ## License
 
-This project is released under the **MIT License**.
+Released under the [MIT License](LICENSE)
 
 ---
 
