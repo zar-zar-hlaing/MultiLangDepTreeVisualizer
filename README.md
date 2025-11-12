@@ -281,7 +281,7 @@ python3 download-models-stanza.py
 ### Command-line Usage
 
 ```bash
-python3 multilangDepTreeVisualizer.py --lang <language_code> --text "<your_text>" [--merge_chunks 0|1] [--merge_punct 0|1] [--out <output_file.svg>]
+python3 multiLangDepTreeVisualizer.py --lang <language_code> --text "<your_text>" [--merge_chunks 0|1] [--merge_punct 0|1] [--out <output_file.svg>]
 ```
 
 ### Parameters
@@ -297,7 +297,7 @@ python3 multilangDepTreeVisualizer.py --lang <language_code> --text "<your_text>
 ### Example 1: Direct text input
 
 ```bash
-python3 multilangDepTreeVisualizer.py \
+python3 multiLangDepTreeVisualizer.py \
     --lang en \
     --text "She quickly ran to the store before it closed." \
     --merge_chunks 1 \
@@ -310,7 +310,7 @@ This will generate a dependency tree visualization and save it as `output.svg`.
 ### Example 2: Using default options (merge noun chunks, no punctuation merge, print to stdout)
 
 ```bash
-python3 multilangDepTreeVisualizer.py --lang en --text "This is a test sentence."
+python3 multiLangDepTreeVisualizer.py --lang en --text "This is a test sentence."
 ```
 ---
 
@@ -344,14 +344,14 @@ The tool prints the following SVG content to the console. For example, using the
 ## Project Structure
 
 ```
-📦 MultilangDepTreeVisualizer
+📦 MultiLangDepTreeVisualizer
  ┣ 📜 download-models-spacy.sh
  ┣ 📜 download-models-spacy-udpipe.sh
  ┣ 📜 download-models-stanza.py
  ┣ 📂 examples
  ┃   ┗ 📜 sample_output.svg
  ┣ 📜 LICENSE
- ┣ 📜 multilangDepTreeVisualizer.py
+ ┣ 📜 multiLangDepTreeVisualizer.py
  ┗ 📜 README.md
 ```
 
