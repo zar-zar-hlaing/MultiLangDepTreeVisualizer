@@ -8,7 +8,7 @@ The **Dependency Tree Visualizer Tool** processes multilingual text or files to 
 
 ### Flexible Input Handling
 
-* Processes both single-line text and multi-line text files with ease.
+* Processes single-line and multi-line texts with ease, though single-line text is recommended for a clearer view of the dependency tree structure.
 
 ### Large Text Support
 
